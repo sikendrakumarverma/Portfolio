@@ -1,0 +1,41 @@
+{
+    "projects": [
+      {
+        "date": "07/10/2022",
+        "title": "INTERNSHIP PORTAL",
+        "description": "A website which registers colleges and students looking for internships Used JWT for authentication and authorization, AWS S3 service forstoring files",
+        "url": "https://github.com/Rsangram007/Internapply-Project-2.git",
+        "imgSrc":"https://thumbs.dreamstime.com/b/internship-word-cloud-concept-grey-background-90730727.jpg"
+      },
+  
+      {
+        "date": "11/10/2022",
+        "title": "BOOK MANAGEMENT",
+        "description": "Developed backend of a website like BooksWagon where users can register, publish books and give ratings to each book",
+        "url": "https://github.com/Rsangram007/Bookmangement-with-AWS-project-3-.git",
+        "imgSrc": "https://images.unsplash.com/photo-1600431521340-491eca880813?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
+      },
+      {
+        "date": "15/10/2022",
+        "title": "SHOPPING CARD",
+        "description": "Developed backend of a shopping website using JWT for authentication & authorization. Used AWS S3 for storing images & Bcrypt for hashing passwords.",
+        "url": "https://github.com/Rsangram007/Ecardshopping-05.git",
+        "imgSrc": "https://images.unsplash.com/flagged/photo-1568004614679-c938da0922fb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+      },
+  
+      {
+        "date": "17/10/2022",
+        "title": "URL SHORTNER",
+        "description": "Developed backend of a website like TinyURL which shortens a longURL using shortId npm package.Used Redis for caching urls to improve performance",
+        "url": "https://github.com/Rsangram007/URL-shorting-Project-4.git",
+        "imgSrc": "https://images.unsplash.com/photo-1624555130581-1d9cca783bc0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+      },
+      {
+        "date": "20/10/2022",
+        "title": "PORTFOLIO",
+        "description": "This is the sample description about the project details To Checkout My Github Account",
+        "url": "/",
+        "imgSrc": "https://media.istockphoto.com/id/175431947/photo/portfolio.jpg?s=1024x1024&w=is&k=20&c=b_LSwWsizc_Er99ZEt87PxkZhgaDHamMsqqRyz4g8R4="
+      }
+    ]
+  }
