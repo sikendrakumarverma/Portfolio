@@ -2,7 +2,7 @@
     flex-basis: 35%;
 }
 
-.contact-image img{
+.contact-image img {
     width: 400px;
     margin-top: 10px;
     border-radius: 8px;
@@ -12,11 +12,11 @@
     flex-basis: 60%;
 }
 
-.map{
+.map {
     margin-top: 68px;
 }
 
-.map iframe{
+.map iframe {
     height: 250px;
     width: 620px;
     margin-top: 10px;
@@ -88,7 +88,7 @@ form .btn2 {
     width: 100%;
     text-align: center;
     padding: 25px 0;
-    background: rgba(0, 255, 255, 0.753);
+    background: #262626;
     font-weight: 300;
     margin-top: 20px;
 }
@@ -97,22 +97,39 @@ form .btn2 {
     color: #ff004f;
 }
 
-#msg{
+#msg {
     color: #61b752;
     margin-top: -40px;
     display: block;
- }
+}
 
- /* --------------------------------css for small screen----------- */
+/* --------------------------------css for small screen----------- */
 
 @media only screen and (max-width: 600px) {
-    
-    #msg{
+
+    .contact-left,
+    .contact-right {
+        flex-basis: 100%;
+        width: 200px;
+    }
+
+    #msg {
         color: #61b752;
         margin-top: -40px;
         display: block;
-     }
-     .map iframe{
-        width: 400px;
-     }
+    }
+
+    .contact-image img {
+        width: 100%;
+    }
+
+    .map iframe {
+        width: 100%;
+    }
+
+    .copyright {
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 14px;
+    }
 }

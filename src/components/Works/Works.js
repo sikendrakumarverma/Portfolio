@@ -1,6 +1,6 @@
-import './Services.css';
+import './Works.css';
 
-function Services(){
+function Works(){
 
     return(
         <div id="services">
@@ -43,4 +43,4 @@ function Services(){
     )
 }
 
-export default Services;
+export default Works;

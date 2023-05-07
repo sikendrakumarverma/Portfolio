@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './Header.css';
 import Typewriter from "typewriter-effect";
+import background from '../Images/background.png'
 
 
 function Header() {
@@ -22,6 +23,7 @@ function Header() {
     return (
         <div id="header">
             <div className="container">
+
                 <nav>
                     <h1><span>S</span>ikendra.</h1>
                     <ul id="sidemenu" className={`${showList} ${closeList}`}>
@@ -58,6 +60,7 @@ function Header() {
                         </a>
                     </div>
                 </div>
+               
             </div>
         </div>
     )

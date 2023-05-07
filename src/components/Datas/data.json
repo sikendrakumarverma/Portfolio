@@ -1,39 +1,80 @@
 {
     "projects": [
+        {
+            "date": "09/2022",
+            "title": "Blogging Site ",
+            "description": "Developed backend of a Blogging website using JWT for authentication & authorization.",
+            "url": "https://github.com/sikendrakumarverma/Blogging-Project1_group53",
+            "imgSrc": "https://tribulant.com/blog/wp-content/uploads/2017/09/Promote-a-blogging-site.jpg"
+          },
       {
-        "date": "07/10/2022",
+        "date": "09/2022",
         "title": "INTERNSHIP PORTAL",
-        "description": "A website which registers colleges and students looking for internships Used JWT for authentication and authorization, AWS S3 service forstoring files",
-        "url": "https://github.com/Rsangram007/Internapply-Project-2.git",
+        "description": "Developed backend of a website like naukri.com where registers colleges and students looking for internships. ",
+        "url": "https://github.com/sikendrakumarverma/project-internshipGroup53",
         "imgSrc":"https://thumbs.dreamstime.com/b/internship-word-cloud-concept-grey-background-90730727.jpg"
       },
   
       {
-        "date": "11/10/2022",
+        "date": "09/2022",
         "title": "BOOK MANAGEMENT",
-        "description": "Developed backend of a website like BooksWagon where users can register, publish books and give ratings to each book",
-        "url": "https://github.com/Rsangram007/Bookmangement-with-AWS-project-3-.git",
-        "imgSrc": "https://images.unsplash.com/photo-1600431521340-491eca880813?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
+        "description": "Developed a Full Stack(MERN) based website like BooksWagon where users can register, publish books and give ratings to each book",
+        "url": "https://mernbookmanagement-njeajwz3x-sikendrakumarverma.vercel.app/",
+        "imgSrc": "https://images.unsplash.com/photo-1600431521340-491eca880813?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580"
       },
       {
-        "date": "15/10/2022",
-        "title": "SHOPPING CARD",
-        "description": "Developed backend of a shopping website using JWT for authentication & authorization. Used AWS S3 for storing images & Bcrypt for hashing passwords.",
-        "url": "https://github.com/Rsangram007/Ecardshopping-05.git",
-        "imgSrc": "https://images.unsplash.com/flagged/photo-1568004614679-c938da0922fb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
-      },
-  
-      {
-        "date": "17/10/2022",
+        "date": "10/2022",
         "title": "URL SHORTNER",
-        "description": "Developed backend of a website like TinyURL which shortens a longURL using shortId npm package.Used Redis for caching urls to improve performance",
-        "url": "https://github.com/Rsangram007/URL-shorting-Project-4.git",
-        "imgSrc": "https://images.unsplash.com/photo-1624555130581-1d9cca783bc0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+        "description": "Developed backend of a website like TinyURL which shorts a longURL using shortId, Redis for caching urls to improve performance",
+        "url": "https://github.com/sikendrakumarverma/project4-urlShortner_Personal",
+        "imgSrc": "https://images.unsplash.com/photo-1624555130581-1d9cca783bc0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580"
       },
       {
-        "date": "20/10/2022",
+        "date": "10/2022",
+        "title": "SHOPPING CARD",
+        "description": "Developed backend of a shopping website like Amazon using JWT, AWS S3 for storing images & Bcrypt for hashing passwords.",
+        "url": "https://github.com/sikendrakumarverma/project-productsManagementGroup35",
+        "imgSrc": "https://thumbs.dreamstime.com/b/online-shopping-website-laptop-screen-female-hands-using-smartphone-55061495.jpg"
+      },
+      {
+        "date": "12/2022",
+        "title": "Coaching Data Management ",
+        "description": "Developed backend of a coaching data danagement website using JWT for authentication & authorization.",
+        "url": "https://github.com/sikendrakumarverma/project6/tree/project6",
+        "imgSrc": "https://thedatascientist.com/wp-content/uploads/2019/02/data-science-coach.jpeg"
+      },
+      {
+        "date": "12/2022",
+        "title": "Live Chatting App ",
+        "description": "Developed a Full Stack Live Chatting App using Socketio, HTML, CSS, JavaScript",
+        "url": "https://whatsapp2-one.vercel.app/",
+        "imgSrc": "https://thumbs.dreamstime.com/z/live-chat-chatting-communication-digital-web-concept-72020923.jpg"
+      },
+      {
+        "date": "02/2023",
+        "title": "Videos Uploading Site",
+        "description": "Developed a Full Stack Videos Uploading Site like YouTube. Used AWS S3 for storing videos.",
+        "url": "https://github.com/Rsangram007/Ecardshopping-05.git",
+        "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmia7kAAQY1rR1id-oPajPCm3GXxNg0DocUw&usqp=CAU"
+      },
+      {
+        "date": "03/2023",
+        "title": "FireBase SignIn SignOut",
+        "description": "Developed a Full Stack FireBase SignIn SignOut with all users listing in sortable form.",
+        "url": "https://firebasesigninsignout.vercel.app/",
+        "imgSrc": "https://res.cloudinary.com/practicaldev/image/fetch/s--cOsaUTh6--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/q7hogmi9grhxs1k1881i.jpg"
+      },
+      {
+        "date": "03/2023",
+        "title": "Book Store",
+        "description": "Developed a Full Stack Book Store for sellor and Buyer with various Features.",
+        "url": "https://booksstore-sikendrakumarverma.vercel.app/",
+        "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVirsC3_mTC-u6KoknWQZyQllWdlOMmSKf4Q&usqp=CAU"
+      },
+      {
+        "date": "03/2023",
         "title": "PORTFOLIO",
-        "description": "This is the sample description about the project details To Checkout My Github Account",
+        "description": "This is the a sample description about me for more details visit my CV and Checkout My Github Account",
         "url": "/",
         "imgSrc": "https://media.istockphoto.com/id/175431947/photo/portfolio.jpg?s=1024x1024&w=is&k=20&c=b_LSwWsizc_Er99ZEt87PxkZhgaDHamMsqqRyz4g8R4="
       }

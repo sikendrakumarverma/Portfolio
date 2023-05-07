@@ -44,7 +44,13 @@
 .layer h3 {
     font-weight: 500;
     margin-bottom: 20px;
+    color: blue;
+}
 
+.layer p {
+    letter-spacing: 1px;
+    line-height: 160%;
+    margin: 10px;
 }
 
 .layer a {
@@ -83,9 +89,7 @@
 .btn:hover {
     background: #ff004f;
 }
+
 /* --------------------------------css for small screen----------- */
 
-@media only screen and (max-width: 600px) {
-    
-    
-}
+@media only screen and (max-width: 600px) {}
