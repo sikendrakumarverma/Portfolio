@@ -2,6 +2,7 @@
 import { useState, useRef } from 'react';
 import { animate, motion } from "framer-motion";
 import photo from "../Images/contact.png";
+import pdf from '../Images/sikendra_cv.pdf'
 import './Contact.css';
 
 function Contact() {
@@ -138,7 +139,7 @@ function Contact() {
                                 <span>Projects Done</span>
                             </article>
                         </aside>
-                        <a href="Images/my_cv.pdf" download className="btn btn2">Download CV</a>
+                        <a href={pdf} download className="btn btn2">Download CV</a>
                     </div>
                     <div className="contact-right">
                         <div className='map'>
