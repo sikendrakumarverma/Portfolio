@@ -2,7 +2,7 @@
 import { useState, useRef } from 'react';
 import { animate, motion } from "framer-motion";
 import photo from "../Images/contact.png";
-import pdf from '../Images/sikendra_cv.pdf'
+import pdf from '../Images/sikendra-cv.pdf'
 import './Contact.css';
 
 function Contact() {
