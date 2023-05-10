@@ -1,13 +1,13 @@
 
 .top-btn{
-    background-color: blueviolet;
+    background-color: #00BFFF;
     width: 40px;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
     position: fixed;
-    bottom: 20px;
-  right: 20px;
+    bottom: 0px; /* adjust the bottom position as needed */
+  right: 10px; /* adjust the right position as needed */
   z-index: 9999;
 }
 
@@ -16,7 +16,7 @@
     width: 40px;
     height: 40px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 30px; /* adjust the font size as needed */
     margin-right: 15px;
     color: #ffff;
     display: inline-block;
@@ -27,3 +27,4 @@
     color: #ff004f;
     transform: translateY(-2px);
 }
+

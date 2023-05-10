@@ -82,7 +82,7 @@ function Contact() {
         });
     };
     const handleCallClick = () => {
-        window.location.href = 'tel:+7492956183';
+        window.location.href = 'tel:+917492956183';
     };
     const handleWhatsAppClick = () => {
         window.location.href = 'https://wa.me/7492956183';
