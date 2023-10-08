@@ -14,8 +14,9 @@
 }
 
 .about-col-1 img {
+    margin-top: -120px;
     width: 300px;
-    height: 70vh;
+    height: 50vh;
     border-radius: 20px;
 }
 

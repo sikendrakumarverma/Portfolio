@@ -31,7 +31,7 @@ function Works(){
                 <div>
                     <i className="fa-brands fa-apple"></i>
                     <h2>
-                        App Development
+                        Web App Development
                     </h2>
                     <p>Enthusiatic and Hardworking, want to learn more about App Development by putting more effort to achieve 
                         that goal, so Looking for an opportunity to work in suitable position and technology-driven organisation.</p>

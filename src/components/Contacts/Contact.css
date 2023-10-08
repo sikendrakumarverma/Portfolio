@@ -18,7 +18,7 @@
 
 .map iframe {
     height: 250px;
-    width: 620px;
+    width: 100%;
     margin-top: 10px;
     border-radius: 8px;
 }

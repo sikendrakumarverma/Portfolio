@@ -2,7 +2,7 @@
 import { useState, useRef } from 'react';
 import { animate, motion } from "framer-motion";
 import photo from "../Images/contact.png";
-import pdf from '../Images/sikendra-cv.pdf'
+import pdf from '../Images/Resume_Sikendra.pdf'
 import './Contact.css';
 
 function Contact() {
@@ -70,13 +70,13 @@ function Contact() {
     const projectCount = useRef(null);
 
     const animationClientsCount = () => {
-        animate(0, 100, {
+        animate(0, 300, {
             duration: 1,
             onUpdate: (v) => (clientCount.current.textContent = v.toFixed()),
         });
     };
     const animationProjectsCount = () => {
-        animate(0, 10, {
+        animate(0, 15, {
             duration: 1,
             onUpdate: (v) => (projectCount.current.textContent = v.toFixed()),
         });
@@ -132,7 +132,7 @@ function Contact() {
                                             ref={projectCount}
                                             whileInView={animationProjectsCount}
                                         >
-                                            10
+                                            15
                                         </motion.span>
                                     }
                                 </p>

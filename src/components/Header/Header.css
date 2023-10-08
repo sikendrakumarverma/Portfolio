@@ -17,9 +17,12 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-image: url(../Images/background.png);
+    background-size: 750px 950px ;
+    background-position: calc(100% - 150px) center;
+    background-image: url(../Images/updated-photo.png);
+    background-repeat: no-repeat;
+    /* background-color: lightslategrey;
+    border-radius: 20px */
 }
 
 .container {
@@ -127,7 +130,13 @@ nav .fa-solid {
 @media only screen and (max-width: 600px) {
 
     #header {
-        background-image: url(../Images/phone-background.png);
+        width: 100%;
+    height: 100vh;
+    background-size: 350px 650px ;
+    background-position: calc(100% - 10px) center;
+    background-image: url(../Images/updated-photo.png);
+    background-repeat: no-repeat;
+        /* background-image: url(../Images/edited.png); */
     }
     
     .container{
@@ -136,7 +145,7 @@ nav .fa-solid {
     }
 
     .header-text {
-        margin-top: 40%;
+        margin-top: 20%;
         font-size: 16px;
     }
 
@@ -159,12 +168,13 @@ nav .fa-solid {
         position: fixed;
         margin-right: 0px;
         top: 0;
-        right: -200px;
-        width: 200px;
-        height: 100vh;
+        right: -150px;
+        width: 150px;
+        height: 35vh;
         padding-top: 50px;
         z-index: 2;
         transition: right 0.5s;
+        border-radius: 8px;
     }
 
     .show-list {

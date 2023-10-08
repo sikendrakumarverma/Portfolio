@@ -45,7 +45,7 @@ function Header() {
                         <br />
                         <Typewriter
                             options={{
-                                strings: ["A Full Stack <br/>Developer", "An App <br/>Developer", "A Designer", "A Creator"],
+                                strings: ["A MERN Stack <br/>Developer", "A Web App <br/>Developer", "A Designer", "A Creator"],
                                 autoStart: true,
                                 loop: true,
                                 cursor: "",
