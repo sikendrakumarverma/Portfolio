@@ -56,7 +56,7 @@ function Header() {
                     <br />
                     <br />
                     <div className='btn-div'>
-                        <a href="mailto:sangrambeheraa007@gmail.com">Hire Me</a>
+                        <a href="mailto:grdskverma2018@gmail.com">Hire Me</a>
                         <a href="#work">
                             Projects
                         </a>

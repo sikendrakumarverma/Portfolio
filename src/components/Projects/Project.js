@@ -26,7 +26,7 @@ function Project() {
               <h3>Live Chatting App </h3>
               <p>Created a real-time-chat app like whatsapp for communication. Used socket.io for
                 connect backend and client.</p>
-              <a href="https://whatsapp2-one.vercel.app/"><i className="fa-solid fa-up-right-from-square"></i></a>
+              <a href="https://batekare.onrender.com/"><i className="fa-solid fa-up-right-from-square"></i></a>
             </div>
           </div>
           <div id="work">

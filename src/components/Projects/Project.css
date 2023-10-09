@@ -92,4 +92,10 @@
 
 /* --------------------------------css for small screen----------- */
 
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+
+    #portfolio{
+        margin-left: 40px;
+
+    }
+}
