@@ -118,6 +118,10 @@ form .btn2 {
         width: 200px;
     }
 
+    .btn.btn2 {
+        margin-left: 30px;
+    
+    }
     #msg {
         color: #61b752;
         margin-top: -40px;
