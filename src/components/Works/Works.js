@@ -10,7 +10,7 @@ function Works(){
                 <div>
                     <i className="fa-solid fa-code"></i>
                     <h2>
-                        Full Stack Web Development
+                        MERN Stack Development
                     </h2>
                     <p>Passion-driven learner and a web developer with the ability to write clean, reusable,
                         optimised code. Skilled and experienced at bulding and maintaining of web development.
@@ -29,7 +29,8 @@ function Works(){
                     <a href="https://github.com/sikendrakumarverma"> See more</a>
                 </div>
                 <div>
-                    <i className="fa-brands fa-apple"></i>
+                    {/* <i className="fa-brands fa-apple"></i> */}
+                    <i className="fa-solid fa-code"></i>
                     <h2>
                         Web App Development
                     </h2>

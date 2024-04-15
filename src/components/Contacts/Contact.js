@@ -37,16 +37,16 @@ function Contact() {
         data.append('Email', formData.Email);
         data.append('Message', formData.Message);
 
-        if (formData.Name.length == 0) {
+        if (formData.Name.length === 0) {
             setError({ ...error, Name: true });
         }
-        else if (formData.Phone.length == 0) {
+        else if (formData.Phone.length === 0) {
             setError({ ...error, Phone: true });
         }
-        else if (formData.Email.length == 0) {
+        else if (formData.Email.length === 0) {
             setError({ ...error, Email: true });
         }
-        else if (formData.Message.length == 0) {
+        else if (formData.Message.length === 0) {
             setError({ ...error, Message: true });
         } else {
 

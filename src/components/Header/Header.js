@@ -2,8 +2,6 @@ import { useState } from 'react';
 import './Header.css';
 // import LeftRightBtn from '../LeftRightBtn/LeftRightBtn'
 import Typewriter from "typewriter-effect";
-import background from '../Images/background.png'
-
 
 function Header() {
 
@@ -45,7 +43,7 @@ function Header() {
                         <br />
                         <Typewriter
                             options={{
-                                strings: ["A MERN Stack <br/>Developer", "A Web App <br/>Developer", "A Designer", "A Creator"],
+                                strings: ["A Back-End <br/>Developer","A MERN Stack <br/>Developer", "A Web App <br/>Developer"],
                                 autoStart: true,
                                 loop: true,
                                 cursor: "",

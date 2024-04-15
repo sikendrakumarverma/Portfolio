@@ -94,7 +94,7 @@ function About() {
               Electrical from Jharkhand Rai University. I have a deep interest
               in Software Development, So now I am currently working as a{" "}
               <span>Backend Developer</span> at{" "}
-              <span>ByzWiz Infratech pvt. ltd.</span>
+              <span>ByzWiz Infratech Pvt Ltd.</span>
             </p>
 
             <div className="tab-title">
@@ -135,7 +135,7 @@ function About() {
                     CSS, Bootatrap, MUI.
                   </li>
                   <li>
-                    <span>Full-Stack-Developer</span>
+                    <span>MERN-Stack-Developer</span>
                     <br />
                     Developinging fully responsive website by using NodeJs,
                     JavaScript, noSQL, mySQL, AWS, Firebase, Redis-Cache,
