@@ -3,6 +3,20 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './AllProjects.css'
 import data from "../Datas/data.json";
+import Blogging from './Images/Blogging.jpg'
+import Internship from './Images/Internship.webp'
+import Book_management from './Images/Book_management.avif'
+import Url from './Images/Url.avif'
+import Shopping from './Images/Shopping.webp'
+import Coaching from './Images/Coaching.jpg'
+import Live from './Images/Live.webp'
+import Video from './Images/Video.jpg'
+import Firebase from './Images/Firebase.webp'
+import Book_store from './Images/Book_store.jpg'
+import Portfolio from './Images/Portfolio.jpg'
+
+
+const images = [Blogging, Internship, Book_management, Url, Shopping, Coaching, Live, Video, Firebase, Book_store, Portfolio]
 
 const Projects = () => {
   return (
@@ -19,13 +33,14 @@ const Projects = () => {
             infiniteLoop={true}
             autoPlay={true}
           >
-            {data.projects.map((i) => (
-              <div key={i.title} className="workItem">
-                <img src={i.imgSrc} alt={i.title} />
+            {data.projects.map((details,i) => (
+              <div key={details.title} className="workItem">
+                <img src={images[i]} alt={details.title} />
                 <aside>
-                  <h3>{i.title}</h3>
-                  <p>{i.description}</p>
-                  <a target={"blank"} href={i.url}>
+                  <h3>{details.title}</h3>
+                  <p>{details.description}</p>
+                  {/* <a target={"blank"} href={i.url}> */}
+                  <a href={details.url}>
                     View Demo
                   </a>
                 </aside>
