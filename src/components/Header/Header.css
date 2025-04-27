@@ -17,12 +17,63 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    background-size: 400px 560px ;
-    background-position: calc(100% - 130px) center;
-    background-image: url(../Images/landing_page.jpg);
+    /* background-size: 400px 560px ; */
+    /* background-position: calc(100% - 130px) center; */
+    /* background-image: url(../Images/landing_page.jpg); */
     background-repeat: no-repeat;
     /* background-color: lightslategrey; */
     /* border-radius: 20px  */
+}
+
+.background-logos {
+    position: absolute;
+    top: 50%;
+    right: 130px;
+    transform: translateY(-50%);
+    width: 400px;
+    height: auto;
+    /* auto, not 95%, for flexible fitting */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    opacity: 0.8;
+    /* Fix from 8 (was wrong) to 0.8 */
+    z-index: 0;
+    pointer-events: none;
+    margin-right: 0.5%;
+
+    /* position: absolute;
+    top: 50%;
+    right: 8%; 
+    transform: translateY(-50%);
+    width: 25vw; 
+    max-width: 400px; 
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    opacity: 1;
+    z-index: 0;
+    pointer-events: none; */
+}
+
+.background-logos img {
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 5px;
+
+    /* width: 135px;
+    height: 105px;
+    object-fit: contain;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); */
 }
 
 .container {
@@ -47,7 +98,7 @@ nav {
     width: 140px;
 }
 
-nav h1{
+nav h1 {
     margin-left: 70px;
 }
 
@@ -61,7 +112,7 @@ nav ul li {
     margin: 10px 20px;
 }
 
-nav ul{
+nav ul {
     margin-right: 50px;
 }
 
@@ -117,7 +168,7 @@ nav ul li a:hover::after {
     text-decoration: none;
 }
 
-.btn-div a:hover{
+.btn-div a:hover {
     background-color: #008000;
 }
 
@@ -131,15 +182,66 @@ nav .fa-solid {
 
     #header {
         width: 100%;
-    height: 100vh;
-    background-size: 350px 650px ;
-    background-position: calc(100% - 10px) center;
-    background-image: url(../Images/updated-photo.png);
-    background-repeat: no-repeat;
+        height: 90vh;
+        /* background-size: 350px 650px ; */
+        /* background-position: calc(100% - 10px) center; */
+        /* background-image: url(../Images/updated-photo.png); */
+        background-repeat: no-repeat;
         /* background-image: url(../Images/edited.png); */
     }
-    
-    .container{
+
+    .background-logos {
+        position: absolute;
+        top: 45%;
+        right: 20px;
+        transform: translateY(-50%);
+        width: 150px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        opacity: 0.6;
+        z-index: 0;
+        pointer-events: none;
+        margin-right: 10%;
+
+    /* position: absolute;
+    top: 48%;
+    right: 20px;
+    transform: translateY(-50%);
+    width: 150px;
+    max-width: 150px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    opacity: 0.8;
+    z-index: 0;
+    pointer-events: none;
+    margin-right: 7%; */
+    }
+
+    .background-logos img {
+        width: 65px;
+        height: auto;
+        object-fit: contain;
+        padding: 0;
+        border-radius: 5px;
+        box-shadow: none
+    /* width: 60px;
+    height: 60px;
+    object-fit: contain;
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); */
+    }
+
+    .container {
         margin-right: 50px;
 
     }
@@ -160,9 +262,10 @@ nav .fa-solid {
         margin-right: 15px;
     }
 
-    nav h1{
+    nav h1 {
         margin-left: 50px;
     }
+
     nav ul {
         background: #ff004f;
         position: fixed;
@@ -207,6 +310,7 @@ nav .fa-solid {
         transition: all 0.3s;
         margin: -0.9rem 0;
     }
+
     nav ul .fa-solid {
         position: absolute;
         top: 25px;

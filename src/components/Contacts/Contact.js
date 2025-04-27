@@ -2,7 +2,7 @@
 import { useState, useRef } from 'react';
 import { animate, motion } from "framer-motion";
 import photo from "../Images/contact.png";
-import pdf from '../Images/Resume_Sikendra p.pdf'
+import pdf from '../Images/Resume_Sikendra_Kumar.pdf'
 import './Contact.css';
 
 function Contact() {
@@ -50,7 +50,7 @@ function Contact() {
             setError({ ...error, Message: true });
         } else {
 
-            fetch(scriptURL, { method: 'POST', body: data })
+            fetch(scriptURL, { method: 'POST', body: data, mode: 'no-cors' })
                 .then(response => {
                     msg.innerHTML = "Message sent successfull"
                     setTimeout(function () {

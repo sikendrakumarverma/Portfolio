@@ -3,6 +3,14 @@ import './Header.css';
 // import LeftRightBtn from '../LeftRightBtn/LeftRightBtn'
 import Typewriter from "typewriter-effect";
 
+import nodejs from '../Images/Nodejs.png'
+import express from '../Images/Express-JS.png'
+import react from '../Images/ReactJS.png'
+import mongodb from '../Images/Mongodb.png'
+import postman from '../Images/Postman.png'
+import typeScript from '../Images/Node-typescript-express.png'
+import github from '../Images/Github.png'
+
 function Header() {
 
     const [showList, setShowList] = useState("");
@@ -21,9 +29,19 @@ function Header() {
 
     return (
         <div id="header">
-       
+
+            <div className="background-logos">
+                <img src={react} alt="ReactJS" />
+                <img src={express} alt="ExpressJS" />
+                <img src={postman} alt="Postman" />
+                <img src={mongodb} alt="MongoDB" />
+                <img src={typeScript} alt="Node + Typescript + Express" />
+                <img src={github} alt="GitHub" />
+                <img src={nodejs} alt="NodeJS" />
+            </div>
+
             <div className="container">
-           
+
                 <nav>
                     <h1><span>S</span>ikendra.</h1>
                     <ul id="sidemenu" className={`${showList} ${closeList}`}>
@@ -43,7 +61,7 @@ function Header() {
                         <br />
                         <Typewriter
                             options={{
-                                strings: ["A Back-End <br/>Developer","A MERN Stack <br/>Developer", "A Web App <br/>Developer"],
+                                strings: ["A Back-End <br/>Developer", "A MERN Stack <br/>Developer", "A Web App <br/>Developer"],
                                 autoStart: true,
                                 loop: true,
                                 cursor: "",
@@ -60,7 +78,7 @@ function Header() {
                         </a>
                     </div>
                 </div>
-               
+
             </div>
         </div>
     )

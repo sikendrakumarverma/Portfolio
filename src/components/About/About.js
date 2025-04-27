@@ -124,22 +124,22 @@ function About() {
                   <li>
                     <span>Back-End Developer</span>
                     <br />
-                    Developinging Back-End API's by using NodeJs,JavaScript,
+                    Developing Back-End API's by using NodeJs, JavaScript, TypeScript,
                     ExpressJs, MongoDB, AWS-S3, Redis, Cache, Postman, Git and
                     GitHub.
                   </li>
                   <li>
                     <span>Front-End Developer</span>
                     <br />
-                    Developinging Front-End Interfaces by using ReactJs, HTML,
-                    CSS, Bootatrap, MUI.
+                    Developing Front-End Interfaces by using ReactJs, HTML,
+                    CSS, Bootstrap, MUI.
                   </li>
                   <li>
                     <span>MERN-Stack-Developer</span>
                     <br />
-                    Developinging fully responsive website by using NodeJs,
-                    JavaScript, noSQL, mySQL, AWS, Firebase, Redis-Cache,
-                    ReactJs, Redux, HTML, CSS, Bootatrap, MUI, Figma.
+                    Developing fully responsive website by using NodeJs,
+                    JavaScript, TypeScript, noSQL, AWS, Firebase, Redis-Cache,
+                    ReactJs, Redux, HTML, CSS, Bootstrap, MUI, Figma.
                   </li>
                 </ul>
               </div>
@@ -153,7 +153,7 @@ function About() {
                   <li>
                     <span>Oct 2023 - Current</span>
                     <br />
-                    ByzWiz{" "}
+                    ByzWiz Infratech Pvt. Ltd.{" "}
                   </li>
                   <li>
                     <span>April 2023 - Oct 2023</span>
