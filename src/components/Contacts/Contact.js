@@ -28,6 +28,7 @@ function Contact() {
     function handleSubmit(e) {
         e.preventDefault();
 
+        // const scriptURL = 'https://script.google.com/macros/s/AKfycbyXnguTG48JdXszmnlPglTlMmQrHA5gBSoiDHeya0BuICLN3r_gzOkWjDysSP2rTQQX/exec'
         const scriptURL = 'https://script.google.com/macros/s/AKfycbyXnguTG48JdXszmnlPglTlMmQrHA5gBSoiDHeya0BuICLN3r_gzOkWjDysSP2rTQQX/exec'
 
         const msg = document.getElementById("msg");
@@ -52,10 +53,10 @@ function Contact() {
 
             fetch(scriptURL, { method: 'POST', body: data, mode: 'no-cors' })
                 .then(response => {
-                    msg.innerHTML = "Message sent successfull"
+                    msg.innerHTML = "Message sent successfully!!!"
                     setTimeout(function () {
                         msg.innerHTML = ''
-                    }, 5000)
+                    }, 2000)
                     //reset()
                     setFormData({ ...formData, Name: "", Phone: "", Email: "", Message: "" });
                     const form = document.forms['submit-to-google-sheet'];

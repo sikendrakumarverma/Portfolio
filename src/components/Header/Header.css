@@ -28,7 +28,7 @@ body {
 .background-logos {
     position: absolute;
     top: 50%;
-    right: 130px;
+    right: 150px;
     transform: translateY(-50%);
     width: 400px;
     height: auto;

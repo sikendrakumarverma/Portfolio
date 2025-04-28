@@ -94,11 +94,11 @@
     }
     .about-col-1 {
         margin-bottom: 30px;
-        margin-top: -200px;
+        margin-top: -300px;
     }
     .about-col-1 img{
-        margin-left: -1px;
-        width: 300px;
+        margin-left: 10px;
+        width: 260px;
         height: 50vh;
         border-radius: 20px;
     }

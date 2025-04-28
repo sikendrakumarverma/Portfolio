@@ -37,7 +37,7 @@ const Projects = () => {
               <div key={details.title} className="workItem">
                 <img src={images[i]} alt={details.title} />
                 <aside>
-                  <h3>{details.title}</h3>
+                  <h4>{details.title}</h4>
                   <p>{details.description}</p>
                   {/* <a target={"blank"} href={i.url}> */}
                   <a href={details.url}>
