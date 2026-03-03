@@ -71,7 +71,7 @@ function Contact() {
     const projectCount = useRef(null);
 
     const animationClientsCount = () => {
-        animate(0, 300, {
+        animate(0, 500, {
             duration: 1,
             onUpdate: (v) => (clientCount.current.textContent = v.toFixed()),
         });
@@ -113,13 +113,13 @@ function Contact() {
                         </div>
                         <article>
                             <p>
-                                +
                                 {
                                     <motion.span
                                         whileInView={animationClientsCount}
                                         ref={clientCount}
                                     ></motion.span>
                                 }
+                                +
                             </p>
                             <span>Linkdin Connection</span>
                         </article>
