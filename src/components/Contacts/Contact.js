@@ -104,8 +104,8 @@ function Contact() {
                         <p><i className="fa-brands fa-whatsapp" onClick={handleWhatsAppClick}></i>Whatsapp Me: 7492956183</p>
 
                         <div className="social-icons">
-                            <a href="https://www.facebook.com/sikendra.verma.18"><i className="fa-brands fa-facebook"></i></a>
-                            <a href="#"><i className="fa-brands fa-square-twitter"></i></a>
+                            <a href="https://www.facebook.com/ksikendra.mahto/"><i className="fa-brands fa-facebook"></i></a>
+                            <a href="https://x.com/SikendraKumarV"><i className="fa-brands fa-square-twitter"></i></a>
                             <a href="https://t.me/Sikendra2023"><i className="fa-brands fa-telegram"></i></a>
                             <a href="https://www.linkedin.com/in/sikendra-kumar-verma-6539a8239/"><i
                                 className="fa-brands fa-linkedin"></i></a>
