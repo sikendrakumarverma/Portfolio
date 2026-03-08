@@ -59,7 +59,7 @@ function Contact() {
                     }, 2000)
                     //reset()
                     setFormData({ ...formData, Name: "", Phone: "", Email: "", Message: "" });
-                    const form = document.forms['submit-to-google-sheet'];
+                    // const form = document.forms['submit-to-google-sheet'];
 
                 })
                 .catch(error => console.log('Error!', error.message))
@@ -144,8 +144,8 @@ function Contact() {
                     </div>
                     <div className="contact-right">
                         <div className='map'>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14554.05895413192!2d86.02521029035957!3d24.22376927207201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f3f10d8416073b%3A0x748037602b73a56a!2sKuruatanr%2C%20Jharkhand%20825324!5e0!3m2!1sen!2sin!4v1682907787469!5m2!1sen!2sin"
-                                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe title="Google Map Location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14554.05895413192!2d86.02521029035957!3d24.22376927207201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f3f10d8416073b%3A0x748037602b73a56a!2sKuruatanr%2C%20Jharkhand%20825324!5e0!3m2!1sen!2sin!4v1682907787469!5m2!1sen!2sin"
+                                allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                         <form name="submit-to-google-sheet">
                             <input type="text" name="Name" value={formData.Name} onChange={(e) => handleChange(e)} placeholder="Your Name" required />
