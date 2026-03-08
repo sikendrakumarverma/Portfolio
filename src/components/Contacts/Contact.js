@@ -127,15 +127,15 @@ function Contact() {
                         <aside>
                             <article>
                                 <p>
-                                    +
                                     {
                                         <motion.span
-                                            ref={projectCount}
-                                            whileInView={animationProjectsCount}
+                                        ref={projectCount}
+                                        whileInView={animationProjectsCount}
                                         >
                                             15
                                         </motion.span>
                                     }
+                                    +
                                 </p>
                                 <span>Projects Done</span>
                             </article>
