@@ -100,8 +100,8 @@ function Contact() {
                             <img src={photo} alt="" />
                         </div>
                         <p><i className="fa-sharp fa-solid fa-paper-plane"></i> <br /> Email: <a href="mailto:grdskverma2018@gmail.com">grdskverma2018@gmail.com</a></p>
-                        <p><i className="fa-sharp fa-solid fa-phone-volume" onClick={handleCallClick}></i>Call Me: 7492956183</p>
-                        <p><i className="fa-brands fa-whatsapp" onClick={handleWhatsAppClick}></i>Whatsapp Me: 7492956183</p>
+                        <p><i className="fa-sharp fa-solid fa-phone-volume" onClick={handleCallClick}></i>Call Me: {process.env.REACT_APP_CALL}</p>
+                        <p><i className="fa-brands fa-whatsapp" onClick={handleWhatsAppClick}></i>Whatsapp Me: {process.env.REACT_APP_WHATSAPP}</p>
 
                         <div className="social-icons">
                             <a href="https://www.facebook.com/ksikendra.mahto/"><i className="fa-brands fa-facebook"></i></a>

@@ -4,10 +4,10 @@ import './LeftRightBtn.css'
 function LeftRightBtn() {
 
     const handleCallClick = () => {
-        window.location.href = 'tel:+917492956183';
+        window.location.href = process.env.REACT_APP_CALL_ME;
     };
     const handleWhatsAppClick = () => {
-        window.location.href = 'https://wa.me/7492956183';
+        window.location.href = process.env.REACT_APP_WHATSAPP_ME;
     };
 
     return (
