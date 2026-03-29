@@ -72,7 +72,7 @@ function Header() {
                     <br />
                     <br />
                     <div className='btn-div'>
-                        <a href="mailto:grdskverma2018@gmail.com">Hire Me</a>
+                        <a href={`mailto:${process.env.REACT_APP_EMAIL}`}>Hire Me</a>
                         <a href="#work">
                             Projects
                         </a>

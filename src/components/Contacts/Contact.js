@@ -28,8 +28,7 @@ function Contact() {
     function handleSubmit(e) {
         e.preventDefault();
 
-        // const scriptURL = 'https://script.google.com/macros/s/AKfycbyXnguTG48JdXszmnlPglTlMmQrHA5gBSoiDHeya0BuICLN3r_gzOkWjDysSP2rTQQX/exec'
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbyXnguTG48JdXszmnlPglTlMmQrHA5gBSoiDHeya0BuICLN3r_gzOkWjDysSP2rTQQX/exec'
+        const scriptURL = process.env.REACT_APP_G_SHEET
 
         const msg = document.getElementById("msg");
         let data = new FormData();
@@ -83,10 +82,10 @@ function Contact() {
         });
     };
     const handleCallClick = () => {
-        window.location.href = 'tel:+917492956183';
+        window.location.href = process.env.REACT_APP_CALL_ME;
     };
     const handleWhatsAppClick = () => {
-        window.location.href = 'https://wa.me/7492956183';
+        window.location.href = process.env.REACT_APP_WHATSAPP_ME;
     };
 
 
@@ -99,17 +98,17 @@ function Contact() {
                         <div className="contact-image" >
                             <img src={photo} alt="" />
                         </div>
-                        <p><i className="fa-sharp fa-solid fa-paper-plane"></i> <br /> Email: <a href="mailto:grdskverma2018@gmail.com">grdskverma2018@gmail.com</a></p>
+                        <p><i className="fa-sharp fa-solid fa-paper-plane"></i> <br /> Email: <a href={`mailto:${process.env.REACT_APP_EMAIL}`}>{process.env.REACT_APP_EMAIL}</a></p>
                         <p><i className="fa-sharp fa-solid fa-phone-volume" onClick={handleCallClick}></i>Call Me: {process.env.REACT_APP_CALL}</p>
                         <p><i className="fa-brands fa-whatsapp" onClick={handleWhatsAppClick}></i>Whatsapp Me: {process.env.REACT_APP_WHATSAPP}</p>
 
                         <div className="social-icons">
-                            <a href="https://www.facebook.com/ksikendra.mahto/"><i className="fa-brands fa-facebook"></i></a>
-                            <a href="https://x.com/SikendraKumarV"><i className="fa-brands fa-square-twitter"></i></a>
-                            <a href="https://t.me/Sikendra2023"><i className="fa-brands fa-telegram"></i></a>
-                            <a href="https://www.linkedin.com/in/sikendra-kumar-verma-6539a8239/"><i
+                            <a href={`${process.env.REACT_APP_FACEBOOK}`}><i className="fa-brands fa-facebook"></i></a>
+                            <a href={`${process.env.REACT_APP_TWITTER}`}><i className="fa-brands fa-square-twitter"></i></a>
+                            <a href={`${process.env.REACT_APP_TELEGRAM}`}><i className="fa-brands fa-telegram"></i></a>
+                            <a href={`${process.env.REACT_APP_LINKEDIN}`}><i
                                 className="fa-brands fa-linkedin"></i></a>
-                            <a href="https://github.com/sikendrakumarverma"><i className="fa-brands fa-github"></i></a>
+                            <a href={`${process.env.REACT_APP_GITHUB}`}><i className="fa-brands fa-github"></i></a>
                         </div>
                         <article>
                             <p>
@@ -129,8 +128,8 @@ function Contact() {
                                 <p>
                                     {
                                         <motion.span
-                                        ref={projectCount}
-                                        whileInView={animationProjectsCount}
+                                            ref={projectCount}
+                                            whileInView={animationProjectsCount}
                                         >
                                             15
                                         </motion.span>
@@ -144,7 +143,7 @@ function Contact() {
                     </div>
                     <div className="contact-right">
                         <div className='map'>
-                            <iframe title="Google Map Location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14554.05895413192!2d86.02521029035957!3d24.22376927207201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f3f10d8416073b%3A0x748037602b73a56a!2sKuruatanr%2C%20Jharkhand%20825324!5e0!3m2!1sen!2sin!4v1682907787469!5m2!1sen!2sin"
+                            <iframe title="Google Map Location" src={process.env.REACT_APP_G_MAP}
                                 allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                         <form name="submit-to-google-sheet">
