@@ -56,7 +56,7 @@ function Header() {
                 </nav>
                 <div className="header-text">
                     {/* <!-- <p>UI/UX Designer</p> --> */}
-                    <h1>Hi I'm <span>Sikendra</span> <br /> From Jharkhand
+                    <h1>Hi I'm <span>Sikendra</span> <br /> Kumar Verma
                         <br />
                         <br />
                         <Typewriter

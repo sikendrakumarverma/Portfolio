@@ -34,13 +34,12 @@ const Projects = () => {
             autoPlay={true}
           >
             {data.projects.map((details,i) => (
-              <div key={details.title} className="workItem">
-                <img src={images[i]} alt={details.title} />
+              <div key={details.title} className="workItem" style={{textAlign: 'center', paddingBottom: '20px'}}>
+                <img src={images[i] || details.imgSrc} alt={details.title} />
                 <aside>
                   <h4>{details.title}</h4>
                   <p>{details.description}</p>
-                  {/* <a target={"blank"} href={i.url}> */}
-                  <a href={details.url}>
+                  <a href={details.url} className="view-demo-btn" target="_blank" rel="noopener noreferrer">
                     View Demo
                   </a>
                 </aside>

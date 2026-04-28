@@ -3,6 +3,8 @@ import { useState, useRef } from 'react';
 import { animate, motion } from "framer-motion";
 import photo from "../Images/contact.png";
 import pdf from '../Images/Resume_Sikendra_Kumar.pdf'
+// import pdf from '../Images/dummy_resume.pdf'
+
 import './Contact.css';
 
 function Contact() {
@@ -103,12 +105,11 @@ function Contact() {
                         <p><i className="fa-brands fa-whatsapp" onClick={handleWhatsAppClick}></i>Whatsapp Me: {process.env.REACT_APP_WHATSAPP}</p>
 
                         <div className="social-icons">
-                            <a href={`${process.env.REACT_APP_FACEBOOK}`}><i className="fa-brands fa-facebook"></i></a>
-                            <a href={`${process.env.REACT_APP_TWITTER}`}><i className="fa-brands fa-square-twitter"></i></a>
-                            <a href={`${process.env.REACT_APP_TELEGRAM}`}><i className="fa-brands fa-telegram"></i></a>
-                            <a href={`${process.env.REACT_APP_LINKEDIN}`}><i
-                                className="fa-brands fa-linkedin"></i></a>
-                            <a href={`${process.env.REACT_APP_GITHUB}`}><i className="fa-brands fa-github"></i></a>
+                            <a href={`${process.env.REACT_APP_FACEBOOK}`} aria-label="Facebook Profile"><i className="fa-brands fa-facebook"></i></a>
+                            <a href={`${process.env.REACT_APP_TWITTER}`} aria-label="Twitter Profile"><i className="fa-brands fa-square-twitter"></i></a>
+                            <a href={`${process.env.REACT_APP_TELEGRAM}`} aria-label="Telegram Contact"><i className="fa-brands fa-telegram"></i></a>
+                            <a href={`${process.env.REACT_APP_LINKEDIN}`} aria-label="LinkedIn Profile"><i className="fa-brands fa-linkedin"></i></a>
+                            <a href={`${process.env.REACT_APP_GITHUB}`} aria-label="GitHub Profile"><i className="fa-brands fa-github"></i></a>
                         </div>
                         <article>
                             <p>
